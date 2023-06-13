@@ -1,9 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -35,4 +38,35 @@ ul {
 button {
   padding: 0.5rem 1rem;
   font-weight: bold;
+}
+
+/* slider classes and media queries */
+
+.slider {
+  height: 60vw !important;
+  margin-top: 96px;
+}
+
+@media (min-width: 768px) {
+  .slider {
+    height: 50vw !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .slider {
+    height: 40vw !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .slider {
+    height: 35vw !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .slider {
+    height: 25vw !important;
+  }
 }
