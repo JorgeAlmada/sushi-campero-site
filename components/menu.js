@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import entradas from "../public/images/menupics/entradas.jpg";
 import cocteles from "../public/images/menupics/cocteles.jpg";
-import tacos from "../public/images/menupics/tacos.PNG";
+import tacos from "../public/images/menupics/tacos.png";
 import sopas from "../public/images/menupics/sopas.jpg";
 import especialidades from "../public/images/menupics/especialidades.jpg";
 import pastas from "../public/images/menupics/pastas.jpg";
