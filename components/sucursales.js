@@ -29,8 +29,8 @@ function SucursalesComponent() {
           class="px-5 py-2.5 relative rounded group overflow-hidden font-medium bg-white text-secondary inline-block cursor-pointer"
           onClick={() => setSucursal("centro")}
         >
-          <span class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-secondary group-hover:h-full opacity-90"></span>
-          <span class="relative group-hover:text-white font-bold">
+          <span class={`${sucursal === "centro" ? "h-full " : ""}absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-secondary group-hover:h-full opacity-90`}></span>
+          <span class={`${sucursal === "centro" ? "text-white " : ""}relative group-hover:text-white font-bold`}>
             Sucursal Centro
           </span>
         </a>
@@ -38,8 +38,8 @@ function SucursalesComponent() {
           class="px-5 py-2.5 relative rounded group overflow-hidden font-medium bg-white text-secondary inline-block cursor-pointer"
           onClick={() => setSucursal("mochistopo")}
         >
-          <span class="h-full absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-secondary group-hover:h-full opacity-90"></span>
-          <span class="relative group-hover:text-white font-bold">
+          <span class={`${sucursal === "mochistopo" ? "h-full " : ""}absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-secondary group-hover:h-full opacity-90`}></span>
+          <span class={`${sucursal === "mochistopo" ? "text-white " : ""}relative group-hover:text-white font-bold`}>
             Sucursal Mochis Topo
           </span>
         </a>
